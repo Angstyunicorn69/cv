@@ -1,0 +1,188 @@
+/*CSS for Title of website and Tabs*/
+div.title
+{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.title2
+{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.tabs
+{
+    display: inline-block;
+    width: 100%;
+}
+
+div.tabs-center
+{
+    position: relative;
+	text-align: center;
+	border: 1px solid black;
+	float:left;
+    width: 14.15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* CSS for adminWebpage.php */
+div.general
+{
+    background-color: lightgrey;
+    display: inline;
+}
+div.announcement
+{
+    text-align: center;
+    float:left;
+    width:49.85%;
+    position: relative;
+}
+
+div.overview
+{
+    text-align: center;
+    float:right;
+    width:49.85%;
+    position: relative;
+}
+
+table.generalEventTable
+{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th.generalEventHead
+{
+    border: 1px solid black;
+    width: 25%;
+    text-align: center;
+}
+
+td.generalEventHead
+{
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+/*CSS for programcalendar.php*/
+div.programbackground
+{
+    background-color: lightcyan;
+    height: 500px;
+}
+
+div.eventform
+{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+div.eventform-center
+{
+	position: relative;
+    float:left;
+    width: 25%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div.eventbutton-center
+{
+    display: inline-block;
+    width: 100%;
+    padding-left: 47%;
+    padding-top: 10px;
+}
+
+div.eventbutton-half
+{
+    position: relative;
+	text-align: center;
+	float:left;
+    width: 49.8%;
+    padding-top: 10px;
+}
+
+table.eventTable
+{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th.eventHead
+{
+    border: 1px solid black;
+    width: 25%;
+    text-align: center;
+}
+
+td.eventHead
+{
+    text-align: center;
+    border: 1px solid black;
+}
+
+/*CSS for feedback table*/
+div.feedbackbackground
+{
+    background-color: lightcyan;
+    height: 500px;
+}
+
+input.title
+{
+    width: 45%;
+}
+
+
+textarea.feedBackTextArea
+{
+    width: 45%;
+    height: 150px;
+}
+
+.feedbackTable
+{
+    border: 1px solid black;
+}
+
+/*css for user management*/
+div.userbackground
+{
+    background-color: lightcyan;
+}
+div.userform
+{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+
+div.userform-center
+{
+	position: relative;
+    float:left;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40%;
+}
